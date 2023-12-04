@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<style>
+    .col-sm-7{
+        overflow: auto;
+    }
+    .row{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .header1{
+        color: white;
+        text-align: center;
+        background-color:#0096ff;
+    }
+    .nav_b{
+        margin-top: -17px;
+        background-color: #fff !important;
+        height: 84px;
+        border: 1px solid #c2c2c2;
+    }
+    .a1{
+        color: white !important;
+    }
+    .p2{
+        margin-top: 13px;
+    }
+    .p2a{
+        margin-top: 20px;
+    }
+    .pic2{
+        width: 100%;
+    height: 47%;
+    }
+    .img_card{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .cards{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 9px  grey;
+        background-color: #fff;
+        border-radius: 10px;
+        /* border: 1px solid #2e00ff; */
+    }
+    .h2{
+        color: #0084ff;
+        font-size: 37px;
+    }
+    .fade{
+        opacity: 1 !important;
+        color:  rgb(142 161 161)
+    }
+    .button{
+        color: white;
+        background-color:#0084ff ;
+        border-color: #0084ff;
+        border-radius: 32px;
+    }
+    .button1{
+        margin: 5px;
+        color: #0084ff;
+        border-color: #0084ff;
+        border-radius: 32px;
+    }
+    .card_row{
+        padding: 15px;
+    }
+    .content{
+        padding: 70px 9%;
+        color: #fff;
+    }
+    .footer{ 
+        background-color: #172146;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .imghover:hover{
+      opacity: 0.3;
+      transition: 0.7s ease;  
+    }
+    .imghover1{
+        width: 100%;
+        height: 100%;
+    }
+    .h3a{
+     color: #f5deb38f;
+     margin-top: 14px;
+     font-size: 21px;
+    }
+    li,.p_f{
+     font-size: 13px;
+    }
+    .para{
+        font-size: 14px;
+        color: #000000;
+        opacity: 0.5;
+    }
+
+
+</style>
+<body style="background-color: #f2f6ff;">
+
+    <!-- Header -->
+    <div class="container-fluid header1">
+        <p>Now get exciting rewards on learning.<a class="a1" href="#"><u>Know more</u></a></p>  
+    </div>
+    <nav class="Jumbutron-fluid nav_b">
+        <div class="row">
+            <div class="col-sm-2">
+                <h2 class="h2"><b>EDYODA</b></h2>
+                <p><i>Stories</i></p>
+            </div>
+            <div class="col-sm-2">
+                <div class="dropdown">
+                    <p class="p2a" data-toggle="dropdown">Dropdown Example</p>
+                    <ul class="dropdown-menu">
+                      <li>Artificial Intelligence</li>
+                      <li>Cloud Computing</li>
+                      <li>DEVOps</li>
+                      <li>Promming Languages</li>
+                      <li>Mobile Application Development</li>
+                      <li>Technology and Tools</li>
+                      <li>Get a job in tech company</li>
+                      <li>Others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="p2 fade">EdYoda is free learning and knowledge sharing platform for techies</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="p2a button">Go to main website</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </nav><br>
+
+<!-- content -->
+
+<section class="container">
+    <h1>Trending Posts</h1>
+    <div class="row">
+        <div class="col-sm-7">
+            <img class="imghover imghover1"src="pic1.jpg" alt="">
+        </div>
+        <div class="col-sm-5">
+            <img class="pic2 imghover" src="pic2.jpg" alt=""> <br><br>
+            <img class="pic2 imghover" src="pic3.jpeg" alt="">
+        </div>
+    </div><br><br>
+
+    <!-- category -->
+    <h3>Latest Posts</h3>
+    <p><i class="fa-solid fa-filter"></i>Filter by category</p>
+    <button class="button">All</button>
+    <button class="button1">Artificial Intelligence</button>
+    <button class="button1">Cloud Computing</button>
+    <button class="button1">DEVOps</button>
+    <button class="button1">Promming Languages</button>
+    <button class="button1">Mobile Application Development</button>
+    <button class="button1">Technology and Tools</button>
+    <button class="button1">Get a Job in Tech Company</button>
+    <button class="button1">Others</button><br><br>
+
+    <!-- cards -->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic4.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Fresh Graduate or IT Professional...</h3>
+                    <p><a href="#">Arman Ahemad</a> | 05 july 2019</p>
+                    <p class="para">If you are a fresh graduate - or new to IT - looking for the next job, you need to read this. The last couple
+                    of years zekeLabs gave me a unique opportunity to assess technology...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic5.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Introducing you all to EdYoda -...</h3>
+                    <p><a href="#">Arman Ahemad</a> | 05 july 2019</p>
+                    <p class="para">Really ecstatic and immensely proud to introduce you all to our latest attempt of adding value and making an impact to the world we are a part of....</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic6.jpg" alt="">
+                <div class="row card_row">
+                    <h3>From identity crisis to the Success Story - Th...</h3>
+                    <p><a href="#">Arman Ahemad</a> | 05 july 2019</p>
+                    <p class="para">DevOps is a paradigm shift in the way how software products are being built in the modern day Information Technology (IT) organizations. It is becoming the...</p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic7.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Industry 4.0 - The Prospects & Journey...</h3>
+                    <p><a href="#">Pitanjal Dutta</a> | 05 Jul 2019</p>
+                    <p class="para">Did you ever dream a world where computers are connected and will communicate with one another to ultimately make decisions without human...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic8.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Why do Database Systems Exist ?</h3>
+                    <p><a href="#">Pitanjal Dutta</a> | 05 Jul 2019</p>
+                    <p class="para">Wondering why Database Management Systems like MySQL, NOSQL, MSSQL, Oracle SQL, MongoDB form the fundamental blocks behind...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic9.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Master your General Aptitude Job Interview...</h3>
+                    <p><a href="#">Pitanjal Dutta</a> | 05 Jul 2019</p>
+                    <p class="para">A general aptitude becomes very important, when you apply for a job in a tech company. You might be highly skilled in your subject domain. However, these basic...</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic10.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Ace your Soft Skills - Tips to crack the job...</h3>
+                    <p><a href="#">Pitanjal Dutta</a> | 05 Jul 2019</p>
+                    <p class="para">Soft skills are seen to be as important as your technical skill set. When an organisation is hiring, soft skills is given a lot of weightage and thus becomes a...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic11.png" alt="">
+                <div class="row card_row">
+                    <h3>Getting started with Artificial Intelligence</h3>
+                    <p><a href="#">EdYoda</a> | 08 Jul 2019</p>
+                    <p class="para">We are rapidly moving towards a day and age where almost everything can be controlled by machines and one of the most revolutionary moves has been th...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic12.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Learn these Programming...</h3>
+                    <p><a href="#">EdYoda</a> | 08 Jul 2019</p>
+                    <p class="para">Starting a career as a software developer obviously requires one to undertake a programming languages course that can cover everything from the basics to...</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic19.jpg" alt="">
+                <div class="row card_row">
+                    <h3>An Introduction to Green Cloud Computing</h3>
+                    <p><a href="#">EdYoda</a> | 21 Jul 2019</p>
+                    <p class="para">Sustainability has been gaining importance since the last two decade because of the extensive exploitation of natural resources by mankind. It has been noted...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic20.jpg" alt="">
+                <div class="row card_row">
+                    <h3>Overview of Natural Language Processing i...</h3>
+                    <p><a href="#">EdYoda</a> | 21 Jul 2019</p>
+                    <p class="para">Over the last few years, Artificial Intelligence has made a prominent space as it uses technology that has made machines capable to perform...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="cards" >
+                <img class="img_card" src="pic21.jpg" alt="">
+                <div class="row card_row">
+                    <h3>How Humans Tame the World with Artificial...</h3>
+                    <p><a href="#">EdYoda</a> | 23 Jul 2019</p>
+                    <p class="para">Humans evolution and usage of technology have been a constant feature throughout the history of Humanity. So evolution and tech have always been a big constant...</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+</section><br><br>
+
+<!-- footer -->
+    
+<Footer class="container-fluid footer" style="background-image: url('https://www.edyoda.com/static/media/FooterBg.0d54e96d.png'); background-size: 119%; background-repeat: no-repeat;">
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3 class="h3a">EDYODA</h3>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Contact us</li>
+                <li>Terms of Use</li>
+                <li>Privacy Policy</li>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="h3a">RESOURCES</h3>
+                <li>Learning Paths</li>
+                <li>Courses</li>
+                <li>Learning Videos</li>
+                <li>Educators</li>
+                <li>EDYoda Stories</li>
+                <li>University</li>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="h3a">FOR ENTERPRISES</h3>
+                <li>Train Your Employees</li>
+                <h3 class="h3a">QUICK LINKS</h3>
+                <li>Learn and Earn</li>
+                <li>Become a Learning-Enabler</li>
+                <li>Tips for Learning-Enabler</li>
+                <li>Request New Topic</li>
+                <li>Certification</li>
+                <li>Affiliate Progam</li>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="h3a">CONNECT</h3>
+                <p class="p_f">2nd Floor #188, Survey No. - 123/1,
+                    Incubes Building Next to McDonalds,
+                    ITPL Main Rd, Brookefield,
+                    Bengaluru, Karnataka-560037,
+                    India</p>
+                    <p class="p_f">hello@edyoda.com</p>
+                    <p class="p_f">© 2022</p>
+                    <p class="p_f"> zekeLabs Technologies Private Limited</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</Footer>
+    
+</body>
+</html>
